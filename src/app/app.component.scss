@@ -1,0 +1,40 @@
+header{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #dd2d4a;
+    text-shadow: 2px 2px 2px rgb(36, 36, 36);
+    font-family: "Chalkboard SE";
+}
+
+.menu-button {
+    height: 30px;
+    width: 30px;
+    background: url("/assets/icon/menu.svg");
+    background-size: cover;
+    border: none;
+    left: 1.5rem;
+    position: absolute;
+    top: calc(2.5rem - 15px);
+}
+
+  
+mat-drawer-container,mat-drawer-content {
+    height:100%;
+}
+mat-drawer,mat-drawer-backdrop{
+    height: 5rem;
+    width: 100%;
+    background-color: #dd2d4a;
+}
+
+p{
+    width: 100%;
+    display: block;
+    min-height: 300px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
