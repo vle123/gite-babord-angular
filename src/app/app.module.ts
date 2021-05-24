@@ -15,6 +15,8 @@ import { IndexComponent } from './views/index/index.component';
 import { GiteComponent } from './views/gite/gite.component';
 import { TarifComponent } from './views/tarif/tarif.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { GalleryModule } from 'ng-gallery';
+import { LightboxModule } from 'ng-gallery/lightbox';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { ContactComponent } from './views/contact/contact.component';
     MatSelectModule,
     MatToolbarModule,
     MatIconModule,
-    TranslateModule.forRoot()
+    TranslateModule.forRoot(),
+    GalleryModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
