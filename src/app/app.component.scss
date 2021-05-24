@@ -23,6 +23,7 @@ header{
   
 mat-drawer-container,mat-drawer-content {
     height:100%;
+    background-color: #e6eafa;
 }
 mat-drawer,mat-drawer-backdrop{
     height: 5rem;
@@ -30,11 +31,44 @@ mat-drawer,mat-drawer-backdrop{
     background-color: #dd2d4a;
 }
 
-p{
-    width: 100%;
-    display: block;
-    min-height: 300px;
-    font-size: 50px;
+h1{
+    max-width: calc(50rem + 40px) ;
+    margin:auto;
+    margin-top: 20px;
     text-align: center;
-    padding-top: 200px;
+    color: white;
+    background-color: #dd2d4a;
+    text-shadow: 2px 2px 2px rgb(36, 36, 36);
+    font-family: "Chalkboard SE";
+    height: 2em;
+    line-height: 2em;
+    border-radius:4px 4px 0 0;
+}
+.content{
+    max-width: 50rem ;
+    margin:auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: medium;
+    border-radius: 0 0 4px 4px;
+}
+.map{
+    width: 100%;
+    height: 30rem;
+}
+
+nav{
+    text-align: center;
+    line-height: 5rem;
+}
+.nav-button{
+    margin-right: 30px;
+    height: 2rem;
+    border: none;
+    background: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(36, 36, 36);
+    font-family: "Chalkboard SE";
 }
